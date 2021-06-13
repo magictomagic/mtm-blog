@@ -5,7 +5,7 @@ import PostBody from '../../components/post-body'
 import Header from '../../components/header'
 import PostHeader from '../../components/post-header'
 import Layout from '../../components/layout'
-import { getPostBySlug, getAllPosts } from '../../lib/api'
+import { getPost_articles_BySlug, getPost_notes_BySlug, get_articles, get_notes} from '../../lib/api'
 import PostTitle from '../../components/post-title'
 import Head from 'next/head'
 import { CMS_NAME } from '../../lib/constants'
@@ -62,7 +62,7 @@ type Params = {
 }
 
 export async function getStaticProps({ params }: Params) {
-  const post = getPostBySlug(params.slug, [
+  const post = getPost_articles_BySlug(params.slug, [
     'title',
     'date',
     'slug',
@@ -84,7 +84,15 @@ export async function getStaticProps({ params }: Params) {
 }
 
 export async function getStaticPaths() {
-  const posts = getAllPosts(['slug'])
+  const posts_articles = get_articles(['slug'])
+  console.log("aaaaaaaaaaaaaa", posts_articles)
+
+  const posts_notes = get_notes(['slug'])
+  console.log("bbbbbbbbbbbbb", posts_notes)
+
+  const posts = posts_articles.concat(posts_notes)
+  console.log("ccccccccccccc", posts)
+
 
   return {
     paths: posts.map((posts) => {

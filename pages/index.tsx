@@ -3,7 +3,7 @@ import MoreStories from '../components/more-stories'
 import HeroPost from '../components/hero-post'
 import Intro from '../components/intro'
 import Layout from '../components/layout'
-import { getAllPosts } from '../lib/api'
+import { get_articles, get_notes} from '../lib/api'
 import Head from 'next/head'
 import { CMS_NAME } from '../lib/constants'
 import Post from '../types/post'
@@ -43,7 +43,7 @@ const Index = ({ allPosts }: Props) => {
 export default Index
 
 export const getStaticProps = async () => {
-  const allPosts = getAllPosts([
+  const allPosts = get_articles([
     'title',
     'date',
     'slug',
@@ -56,3 +56,5 @@ export const getStaticProps = async () => {
     props: { allPosts },
   }
 }
+
+

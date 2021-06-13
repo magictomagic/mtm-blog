@@ -1,0 +1,907 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2021-06-13 秅ら 09:57 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Poco F2/Redmi K30 pro</title>
+<meta name="generator" content="Org mode" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2020 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Poco F2/Redmi K30 pro</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org9663731">1. Requirement</a>
+<ul>
+<li><a href="#org8de5665">1.1. Remove ads in app</a>
+<ul>
+<li><a href="#orgf1a7b59">1.1.1. Google ads</a></li>
+<li><a href="#org593d978">1.1.2. Mainland ads apps(only for Sodom app)</a></li>
+<li><a href="#org9d50c33">1.1.3. SMS ads</a></li>
+</ul>
+</li>
+<li><a href="#orgf55002f">1.2. Better browsing experience</a>
+<ul>
+<li><a href="#orgfd9635b">1.2.1. Remove ads</a></li>
+<li><a href="#org3d65d04">1.2.2. <span class="todo TODO">TODO</span> Surprise jump from chrome to Taobao or Alipay</a></li>
+<li><a href="#org80c18e3">1.2.3. <span class="todo TODO">TODO</span> Press button to continue read in 知乎 or CSDN</a></li>
+</ul>
+</li>
+<li><a href="#org6c1e120">1.3. Privacy management</a>
+<ul>
+<li><a href="#org384c47c">1.3.1. Mainland bandit apps(only for Sodom app)</a></li>
+<li><a href="#org11900cb">1.3.2. Big government or company for altisonant reasons</a></li>
+<li><a href="#org4a957eb">1.3.3. disable apps</a></li>
+<li><a href="#orgb21e6aa">1.3.4. disguise location</a></li>
+<li><a href="#orga27e0a9">1.3.5. Hide root and xposed from apps do not need</a></li>
+</ul>
+</li>
+<li><a href="#org28256d0">1.4. Backup and Restore</a>
+<ul>
+<li><a href="#org1892e0e">1.4.1. data In app</a></li>
+<li><a href="#orgd84a142">1.4.2. permission About apps</a></li>
+<li><a href="#org7992082">1.4.3. <span class="todo TODO">TODO</span> plugin In magisk</a></li>
+<li><a href="#orga669787">1.4.4. <span class="todo TODO">TODO</span> module In xposed</a></li>
+<li><a href="#org5224c7e">1.4.5. <span class="todo TODO">TODO</span> rules in FilterBox</a></li>
+<li><a href="#orgbd58344">1.4.6. <span class="todo TODO">TODO</span> Tasker</a></li>
+<li><a href="#org2998b23">1.4.7. desktop layout</a></li>
+<li><a href="#orgcc400d3">1.4.8. Whole ROM</a></li>
+</ul>
+</li>
+<li><a href="#orgdfc52f9">1.5. <span class="todo WAITING">WAITING</span> SafetyNet hack</a></li>
+<li><a href="#org612359b">1.6. interest me when boring</a>
+<ul>
+<li><a href="#org7fdd54e">1.6.1. VPN hotspot</a></li>
+<li><a href="#orgd6be443">1.6.2. Enable screenshot in tsundere apps</a></li>
+<li><a href="#org204be38">1.6.3. <span class="todo TODO">TODO</span> Use as server</a></li>
+<li><a href="#orgcc9aadc">1.6.4. <span class="todo TODO">TODO</span> Launcher</a></li>
+<li><a href="#orgf07141f">1.6.5. <span class="todo TODO">TODO</span> Solution to break walls between regions</a></li>
+<li><a href="#orgb0d79b4">1.6.6. <span class="todo TODO">TODO</span> Efficiency</a></li>
+<li><a href="#org027d881">1.6.7. <span class="todo TODO">TODO</span> Decompile Paid App, modify, recompile</a></li>
+<li><a href="#org08b828b">1.6.8. <span class="todo TODO">TODO</span> Send information automatically</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org96c302b">2. Checker</a>
+<ul>
+<li><a href="#orgc0d8760">2.1. Detect root and xposed</a>
+<ul>
+<li><a href="#orgdd759e9">2.1.1. Momo</a></li>
+<li><a href="#org6dc40eb">2.1.2. Xposed Check</a></li>
+<li><a href="#org57bb49a">2.1.3. Welink, ICBC Mobile Banking(中国工商银行)</a></li>
+</ul>
+</li>
+<li><a href="#orgdd0b018">2.2. Detect safetynet</a>
+<ul>
+<li><a href="#org6832b2a">2.2.1. Magisk</a></li>
+<li><a href="#orgb5465d5">2.2.2. SafetyNet Test</a></li>
+<li><a href="#org8673d3e">2.2.3. Netflix, Play Store</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgeda42bc">3. Root MIUI</a>
+<ul>
+<li><a href="#orgbd154a3">3.1. Old but success in 2021-06-01</a></li>
+<li><a href="#org92009c6">3.2. <span class="todo TODO">TODO</span> New method</a></li>
+</ul>
+</li>
+<li><a href="#org0108da4">4. Principle</a>
+<ul>
+<li><a href="#orgea631b7">4.1. <span class="todo DOING">DOING</span> General</a>
+<ul>
+<li><a href="#org6f17285">4.1.1. recovery upgrade</a></li>
+</ul>
+</li>
+<li><a href="#orgcb11f09">4.2. <span class="todo TODO">TODO</span> Hook detect</a></li>
+<li><a href="#org1894061">4.3. Crack paid app</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org9663731" class="outline-2">
+<h2 id="org9663731"><span class="section-number-2">1</span> Requirement</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-org8de5665" class="outline-3">
+<h3 id="org8de5665"><span class="section-number-3">1.1</span> Remove ads in app</h3>
+<div class="outline-text-3" id="text-1-1">
+</div>
+<div id="outline-container-orgf1a7b59" class="outline-4">
+<h4 id="orgf1a7b59"><span class="section-number-4">1.1.1</span> Google ads</h4>
+<div class="outline-text-4" id="text-1-1-1">
+</div>
+<ol class="org-ol">
+<li><a id="orgbbe5751"></a>Microg <code>[2/2]</code><br />
+<div class="outline-text-5" id="text-1-1-1-1">
+<ul class="org-ul">
+<li class="on"><code>[X]</code> install <a href="https://vancedapp.com/">Vanced Manager</a> in <code>root</code> mode
+<b>note</b>
+<ol class="org-ol">
+<li>If YouTube occurred to flash back or other problems, udpate YouTube in Play Store and reinstall it in Vanced Manager.</li>
+</ol></li>
+<li class="on"><code>[X]</code> turn off auto-update <code>single</code> app in <code>play store</code></li>
+</ul>
+</div>
+</li>
+<li><a id="orgcdd5b1a"></a>Adaway app<br />
+<div class="outline-text-5" id="text-1-1-1-2">
+
+<div class="figure">
+<p><img src="file:///d:/img/20210609_213716_WXKSxd.png" alt="20210609_213716_WXKSxd.png" width="29" />
+</p>
+</div>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-org593d978" class="outline-4">
+<h4 id="org593d978"><span class="section-number-4">1.1.2</span> Mainland ads apps(only for Sodom app)</h4>
+<div class="outline-text-4" id="text-1-1-2">
+</div>
+<ol class="org-ol">
+<li><a id="org0ac51ff"></a>splash screen ads(开屏广告) <code>[1/2]</code><br />
+<div class="outline-text-5" id="text-1-1-2-1">
+<ul class="org-ul">
+<li class="on"><code>[X]</code> install <a href="https://wiki.ad-gone.com/adMagisk.html">大圣净化</a> in <code>root</code> mode</li>
+<li class="off"><code>[&#xa0;]</code> crisis awareness, to backup rules, learn about the underlying principle</li>
+</ul>
+</div>
+</li>
+<li><a id="orgf4bea76"></a>pop-up ads and stupid PMP(弹窗广告/红包，傻逼的产品经理设计的花里胡哨的组件) <code>[1/2]</code><br />
+<div class="outline-text-5" id="text-1-1-2-2">
+<ul class="org-ul">
+<li class="on"><code>[X]</code> <a href="https://github.com/kaisar945/Xposed-GodMode">Xposed-GodMode</a></li>
+<li class="off"><code>[&#xa0;]</code> create RemoveHub or use other apps</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-org9d50c33" class="outline-4">
+<h4 id="org9d50c33"><span class="section-number-4">1.1.3</span> SMS ads</h4>
+<div class="outline-text-4" id="text-1-1-3">
+</div>
+<ol class="org-ol">
+<li><a id="orga0dafa8"></a>NekoSMS <code>with rules</code><br />
+<div class="outline-text-5" id="text-1-1-3-1">
+
+<div class="figure">
+<p><img src="file:///d:/img/20210610_010726_Ai6D4B.png" alt="20210610_010726_Ai6D4B.png" width="29" />
+</p>
+</div>
+</div>
+</li>
+</ol>
+</div>
+</div>
+
+<div id="outline-container-orgf55002f" class="outline-3">
+<h3 id="orgf55002f"><span class="section-number-3">1.2</span> Better browsing experience</h3>
+<div class="outline-text-3" id="text-1-2">
+</div>
+<div id="outline-container-orgfd9635b" class="outline-4">
+<h4 id="orgfd9635b"><span class="section-number-4">1.2.1</span> Remove ads</h4>
+<div class="outline-text-4" id="text-1-2-1">
+</div>
+<ol class="org-ol">
+<li><a id="org9ed823b"></a>Adblock Browser, 1DM+ Browser<br />
+<div class="outline-text-5" id="text-1-2-1-1">
+<p width="29">
+<img src="./img/20210609_215954_zDjfKu.png" alt="20210609_215954_zDjfKu.png" width="29" />  <img src="./img/20210609_220610_eFlEAj.png" alt="20210609_220610_eFlEAj.png" />
+</p>
+</div>
+</li>
+<li><a id="org3235131"></a><span class="todo TODO">TODO</span> Kiwi Browser <code>with plugin</code><br />
+<div class="outline-text-5" id="text-1-2-1-2">
+
+<div class="figure">
+<p><img src="./img/20210609_224057_YbwFmd.png" alt="20210609_224057_YbwFmd.png" width="29" />
+</p>
+</div>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-org3d65d04" class="outline-4">
+<h4 id="org3d65d04"><span class="section-number-4">1.2.2</span> <span class="todo TODO">TODO</span> Surprise jump from chrome to Taobao or Alipay</h4>
+</div>
+<div id="outline-container-org80c18e3" class="outline-4">
+<h4 id="org80c18e3"><span class="section-number-4">1.2.3</span> <span class="todo TODO">TODO</span> Press button to continue read in 知乎 or CSDN</h4>
+</div>
+</div>
+<div id="outline-container-org6c1e120" class="outline-3">
+<h3 id="org6c1e120"><span class="section-number-3">1.3</span> Privacy management</h3>
+<div class="outline-text-3" id="text-1-3">
+</div>
+<div id="outline-container-org384c47c" class="outline-4">
+<h4 id="org384c47c"><span class="section-number-4">1.3.1</span> Mainland bandit apps(only for Sodom app)</h4>
+<div class="outline-text-4" id="text-1-3-1">
+</div>
+<ol class="org-ol">
+<li><a id="org6efaa96"></a>Cannot use without your privacy <code>[1/2]</code><br />
+<div class="outline-text-5" id="text-1-3-1-1">
+<ul class="org-ul">
+<li class="on"><code>[X]</code> Island, Storage Isolation</li>
+</ul>
+<p width="29">
+<img src="./img/20210609_232111_l5VIPQ.png" alt="20210609_232111_l5VIPQ.png" width="29" />  <img src="./img/20210609_232217_ImEQhe.png" alt="20210609_232217_ImEQhe.png" />
+</p>
+<ul class="org-ul">
+<li class="off"><code>[&#xa0;]</code> XPrivacyLua</li>
+</ul>
+
+<div class="figure">
+<p><img src="./img/20210609_232439_rHTCVc.png" alt="20210609_232439_rHTCVc.png" width="29" />
+</p>
+</div>
+</div>
+</li>
+<li><a id="org026f9d9"></a>Build-in Browser in <b>Sodomese have to use</b><br />
+<div class="outline-text-5" id="text-1-3-1-2">
+<ul class="org-ul">
+<li class="off"><code>[&#xa0;]</code> ExLink</li>
+</ul>
+
+<div class="figure">
+<p><img src="./img/20210610_005809_wxvKdT.png" alt="20210610_005809_wxvKdT.png" width="29" />
+</p>
+</div>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-org11900cb" class="outline-4">
+<h4 id="org11900cb"><span class="section-number-4">1.3.2</span> Big government or company for altisonant reasons</h4>
+<div class="outline-text-4" id="text-1-3-2">
+</div>
+<ol class="org-ol">
+<li><a id="org36bc050"></a><span class="todo DOING">DOING</span> bloatware<br />
+<div class="outline-text-5" id="text-1-3-2-1">
+<ul class="org-ul">
+<li class="off"><code>[&#xa0;]</code> MIUI
+<a href="https://gist.github.com/Biswa96/81fe477079fa5279f7cfd7b98d5519c7">refer1</a>, <a href="https://technastic.com/xiaomi-bloatware-list-miui/">refer2</a></li>
+</ul>
+</div>
+</li>
+<li><a id="org519efd0"></a><span class="todo TODO">TODO</span> privacy expore direction<br />
+<div class="outline-text-5" id="text-1-3-2-2">
+<ul class="org-ul">
+<li class="off"><code>[&#xa0;]</code> Cirlig and Tierney's research on MIUI</li>
+<li class="off"><code>[&#xa0;]</code> Google's PID or other PIDs</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-org4a957eb" class="outline-4">
+<h4 id="org4a957eb"><span class="section-number-4">1.3.3</span> disable apps</h4>
+<div class="outline-text-4" id="text-1-3-3">
+</div>
+<ol class="org-ol">
+<li><a id="org6798b7c"></a>ice box<br />
+<div class="outline-text-5" id="text-1-3-3-1">
+
+<div class="figure">
+<p><img src="./img/20210609_234643_kHXPN1.png" alt="20210609_234643_kHXPN1.png" width="29" />
+</p>
+</div>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-orgb21e6aa" class="outline-4">
+<h4 id="orgb21e6aa"><span class="section-number-4">1.3.4</span> disguise location</h4>
+<div class="outline-text-4" id="text-1-3-4">
+</div>
+<ol class="org-ol">
+<li><a id="org040f06a"></a>X 定位保护<br />
+<div class="outline-text-5" id="text-1-3-4-1">
+
+<div class="figure">
+<p><img src="./img/20210610_010306_GXv3ER.png" alt="20210610_010306_GXv3ER.png" width="29" />
+</p>
+</div>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-orga27e0a9" class="outline-4">
+<h4 id="orga27e0a9"><span class="section-number-4">1.3.5</span> Hide root and xposed from apps do not need</h4>
+</div>
+</div>
+<div id="outline-container-org28256d0" class="outline-3">
+<h3 id="org28256d0"><span class="section-number-3">1.4</span> Backup and Restore</h3>
+<div class="outline-text-3" id="text-1-4">
+</div>
+<div id="outline-container-org1892e0e" class="outline-4">
+<h4 id="org1892e0e"><span class="section-number-4">1.4.1</span> data In app</h4>
+<div class="outline-text-4" id="text-1-4-1">
+</div>
+<ol class="org-ol">
+<li><a id="orga4882a5"></a>Swift Backup<br />
+<div class="outline-text-5" id="text-1-4-1-1">
+<p>
+attention: do not hide magisk by alias
+</p>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-orgd84a142" class="outline-4">
+<h4 id="orgd84a142"><span class="section-number-4">1.4.2</span> permission About apps</h4>
+<div class="outline-text-4" id="text-1-4-2">
+</div>
+<ol class="org-ol">
+<li><a id="orgc86285c"></a>App Ops<br /></li>
+</ol>
+</div>
+<div id="outline-container-org7992082" class="outline-4">
+<h4 id="org7992082"><span class="section-number-4">1.4.3</span> <span class="todo TODO">TODO</span> plugin In magisk</h4>
+<div class="outline-text-4" id="text-1-4-3">
+<p>
+backup installed plugins
+</p>
+</div>
+</div>
+<div id="outline-container-orga669787" class="outline-4">
+<h4 id="orga669787"><span class="section-number-4">1.4.4</span> <span class="todo TODO">TODO</span> module In xposed</h4>
+<div class="outline-text-4" id="text-1-4-4">
+<p>
+backup xposed modules
+</p>
+</div>
+</div>
+<div id="outline-container-org5224c7e" class="outline-4">
+<h4 id="org5224c7e"><span class="section-number-4">1.4.5</span> <span class="todo TODO">TODO</span> rules in FilterBox</h4>
+</div>
+<div id="outline-container-orgbd58344" class="outline-4">
+<h4 id="orgbd58344"><span class="section-number-4">1.4.6</span> <span class="todo TODO">TODO</span> Tasker</h4>
+</div>
+<div id="outline-container-org2998b23" class="outline-4">
+<h4 id="org2998b23"><span class="section-number-4">1.4.7</span> desktop layout</h4>
+<div class="outline-text-4" id="text-1-4-7">
+</div>
+<ol class="org-ol">
+<li><a id="orgecfe578"></a><span class="todo DOING">DOING</span> xiaomi yun or other methods, including shotcuts<br /></li>
+</ol>
+</div>
+<div id="outline-container-orgcc400d3" class="outline-4">
+<h4 id="orgcc400d3"><span class="section-number-4">1.4.8</span> Whole ROM</h4>
+<div class="outline-text-4" id="text-1-4-8">
+</div>
+<ol class="org-ol">
+<li><a id="org6186eec"></a>Migrate-GPE<br /></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgdfc52f9" class="outline-3">
+<h3 id="orgdfc52f9"><span class="section-number-3">1.5</span> <span class="todo WAITING">WAITING</span> SafetyNet hack</h3>
+</div>
+<div id="outline-container-org612359b" class="outline-3">
+<h3 id="org612359b"><span class="section-number-3">1.6</span> interest me when boring</h3>
+<div class="outline-text-3" id="text-1-6">
+</div>
+<div id="outline-container-org7fdd54e" class="outline-4">
+<h4 id="org7fdd54e"><span class="section-number-4">1.6.1</span> VPN hotspot</h4>
+<div class="outline-text-4" id="text-1-6-1">
+</div>
+<ol class="org-ol">
+<li><a id="org55c048d"></a>Repeater(WiFi中继器)<br />
+<div class="outline-text-5" id="text-1-6-1-1">
+<p>
+works, but require WiFi
+</p>
+</div>
+</li>
+<li><a id="orgdfd2d89"></a><span class="todo TODO">TODO</span> Mobile data<br />
+<div class="outline-text-5" id="text-1-6-1-2">
+<p>
+Alternative when WiFi is unavailable
+</p>
+</div>
+</li>
+<li><a id="orgf37abf3"></a>Battery protection<br />
+<div class="outline-text-5" id="text-1-6-1-3">
+<p>
+AccA
+  <b>note</b>
+</p>
+<ol class="org-ol">
+<li>Lock the progress in background when use it as a 24h router</li>
+</ol>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-orgd6be443" class="outline-4">
+<h4 id="orgd6be443"><span class="section-number-4">1.6.2</span> Enable screenshot in tsundere apps</h4>
+<div class="outline-text-4" id="text-1-6-2">
+<p>
+WeiJu
+</p>
+</div>
+</div>
+<div id="outline-container-org204be38" class="outline-4">
+<h4 id="org204be38"><span class="section-number-4">1.6.3</span> <span class="todo TODO">TODO</span> Use as server</h4>
+<div class="outline-text-4" id="text-1-6-3">
+<ul class="org-ul">
+<li>termux(in F-droid), JuiceSSH</li>
+<li>coding outdoor with a keyboard: use python, nodejs, mysql on it.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgcc9aadc" class="outline-4">
+<h4 id="orgcc9aadc"><span class="section-number-4">1.6.4</span> <span class="todo TODO">TODO</span> Launcher</h4>
+<div class="outline-text-4" id="text-1-6-4">
+<ul class="org-ul">
+<li>Nova Launcher、Lawnchair、Hola Launcher、Hyperion Launcher</li>
+<li><a href="https://sspai.com/post/54805">Beautify</a> Launcher with KWGT and KLWP</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgf07141f" class="outline-4">
+<h4 id="orgf07141f"><span class="section-number-4">1.6.5</span> <span class="todo TODO">TODO</span> Solution to break walls between regions</h4>
+<div class="outline-text-4" id="text-1-6-5">
+</div>
+<ol class="org-ol">
+<li><a id="org1ca08e2"></a>Install bilibili in google play version<br /></li>
+<li><a id="orgac89b6d"></a>Install netflix without GMS<br />
+<div class="outline-text-5" id="text-1-6-5-2">
+<p>
+SAI
+</p>
+</div>
+</li>
+<li><a id="orgb568c79"></a>install apk with specified websites or sources<br /></li>
+</ol>
+</div>
+<div id="outline-container-orgb0d79b4" class="outline-4">
+<h4 id="orgb0d79b4"><span class="section-number-4">1.6.6</span> <span class="todo TODO">TODO</span> Efficiency</h4>
+<div class="outline-text-4" id="text-1-6-6">
+<ul class="org-ul">
+<li>wechat scan</li>
+<li>read Wechat, QQ, Welink, e-mail, SMS, Google calendar in one space</li>
+<li>Downlaod YouTube Video by IDM or SkyTube(May need to change the download component)</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org027d881" class="outline-4">
+<h4 id="org027d881"><span class="section-number-4">1.6.7</span> <span class="todo TODO">TODO</span> Decompile Paid App, modify, recompile</h4>
+<div class="outline-text-4" id="text-1-6-7">
+<ul class="org-ul">
+<li>Storage Isolation
+Too expensive, so I fuck it.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org08b828b" class="outline-4">
+<h4 id="org08b828b"><span class="section-number-4">1.6.8</span> <span class="todo TODO">TODO</span> Send information automatically</h4>
+<div class="outline-text-4" id="text-1-6-8">
+</div>
+<ol class="org-ol">
+<li><a id="orgbb8cb1b"></a>send text by wechat according to others' text<br /></li>
+<li><a id="orgac66291"></a>send documents by QQ according to date time(usually, ddl)<br /></li>
+</ol>
+</div>
+</div>
+</div>
+<div id="outline-container-org96c302b" class="outline-2">
+<h2 id="org96c302b"><span class="section-number-2">2</span> Checker</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-orgc0d8760" class="outline-3">
+<h3 id="orgc0d8760"><span class="section-number-3">2.1</span> Detect root and xposed</h3>
+<div class="outline-text-3" id="text-2-1">
+</div>
+<div id="outline-container-orgdd759e9" class="outline-4">
+<h4 id="orgdd759e9"><span class="section-number-4">2.1.1</span> Momo</h4>
+<div class="outline-text-4" id="text-2-1-1">
+<p>
+Root, Xposed, other system outliers.
+</p>
+</div>
+</div>
+<div id="outline-container-org6dc40eb" class="outline-4">
+<h4 id="org6dc40eb"><span class="section-number-4">2.1.2</span> Xposed Check</h4>
+<div class="outline-text-4" id="text-2-1-2">
+<p>
+Xposed
+</p>
+</div>
+</div>
+<div id="outline-container-org57bb49a" class="outline-4">
+<h4 id="org57bb49a"><span class="section-number-4">2.1.3</span> Welink, ICBC Mobile Banking(中国工商银行)</h4>
+<div class="outline-text-4" id="text-2-1-3">
+<p>
+Root
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgdd0b018" class="outline-3">
+<h3 id="orgdd0b018"><span class="section-number-3">2.2</span> Detect safetynet</h3>
+<div class="outline-text-3" id="text-2-2">
+</div>
+<div id="outline-container-org6832b2a" class="outline-4">
+<h4 id="org6832b2a"><span class="section-number-4">2.2.1</span> Magisk</h4>
+</div>
+<div id="outline-container-orgb5465d5" class="outline-4">
+<h4 id="orgb5465d5"><span class="section-number-4">2.2.2</span> SafetyNet Test</h4>
+</div>
+<div id="outline-container-org8673d3e" class="outline-4">
+<h4 id="org8673d3e"><span class="section-number-4">2.2.3</span> Netflix, Play Store</h4>
+</div>
+</div>
+</div>
+<div id="outline-container-orgeda42bc" class="outline-2">
+<h2 id="orgeda42bc"><span class="section-number-2">3</span> Root MIUI</h2>
+<div class="outline-text-2" id="text-3">
+</div>
+<div id="outline-container-orgbd154a3" class="outline-3">
+<h3 id="orgbd154a3"><span class="section-number-3">3.1</span> Old but success in 2021-06-01</h3>
+<div class="outline-text-3" id="text-3-1">
+<ol class="org-ol">
+<li>Unlock bootloader</li>
+<li><p>
+Reboot to fastboot
+</p>
+<div class="org-src-container">
+<pre class="src src-bash">adb reboot bootloader
+</pre>
+</div></li>
+<li><p>
+Flash in third-party recovery
+</p>
+<ol class="org-ol">
+<li><p>
+Flash img into boot partition
+</p>
+<div class="org-src-container">
+<pre class="src src-bash">fastboot boot twrp.img
+</pre>
+</div>
+<p>
+<b>note</b>: <code>fastboot flash recovery twrp.img</code> only work in old device.
+</p></li>
+<li>Go to recovery system
+<b>note</b>: <code>fastboot reboot</code> may not work in your device, press power and volume up button instead.</li>
+</ol>
+<p>
+<b>note</b>
+</p>
+<ul class="org-ul">
+<li>Sometimes you cannot enter REC due to recovery img broken or other unexpectable errors. Do not use MIUI offcial toolkit in 2021, use the version not higher than 2018. Because the 2021 one has tighter restrictions and fewer options.</li>
+<li>Erase data but do not lock bootloader.</li>
+<li>Wire brush and choose unziped directory</li>
+</ul></li>
+<li>Install Magisk.zip in recovery
+<ol class="org-ol">
+<li>Rename Magisk.apk to Magisk.zip</li>
+<li><p>
+Move it to recovery
+</p>
+<div class="org-src-container">
+<pre class="src src-shell">adb push Magisk-v23.0.zip /mnt/sdcard/Magisk-v23.0.zip
+</pre>
+</div></li>
+<li>Install it in TWRP recovery, just like <code>Card Flash</code></li>
+</ol></li>
+<li><p>
+Install Magisk.apk with essential modules
+<b>must install</b>
+</p>
+<ol class="org-ol">
+<li>Riru  <code>Rikka</code></li>
+<li>Riru-EdXposed  <code>solohsu, MlgmXyysd</code></li>
+<li>Systemless Hosts  <code>Magisk</code></li>
+</ol>
+<p>
+<b>recommend install</b>
+</p>
+<ol class="org-ol">
+<li>Busybox for Android NDK  <code>xda-developers</code></li>
+<li>Universal GMS Doze  <code>gloeyisk</code></li>
+<li>Energized Protection  <code>AdroitAdorKhan</code></li>
+<li>大圣净化  <code>lingyu0</code> (only for Sodomese)</li>
+<li>Riru-Enhanced mode for Storage Isolation  <code>Rikka</code></li>
+<li>Riru-Location Report Enabler  <code>Rikka</code></li>
+<li>Advanced Charging Controller(ACC)  <code>VR25</code></li>
+</ol>
+<p>
+<b>other</b>
+</p>
+<ol class="org-ol">
+<li>NFS INJECTOR @nfsinjector  <code>K1ks</code></li>
+<li>Font Manager  <code>Androidacy</code></li>
+<li>MagiskHide Props Config  <code>Didgeridoohan</code></li>
+<li>Universal SafetyNet Fix  <code>kdrag0n</code></li>
+<li>App Systemizer(Terminal Emulator)  <code>veez21</code></li>
+</ol></li>
+<li>Restore, Hide, check</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org92009c6" class="outline-3">
+<h3 id="org92009c6"><span class="section-number-3">3.2</span> <span class="todo TODO">TODO</span> New method</h3>
+<div class="outline-text-3" id="text-3-2">
+<p>
+<a href="https://topjohnwu.github.io/Magisk/install.html#patching-images">Magisk official</a>
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org0108da4" class="outline-2">
+<h2 id="org0108da4"><span class="section-number-2">4</span> Principle</h2>
+<div class="outline-text-2" id="text-4">
+</div>
+<div id="outline-container-orgea631b7" class="outline-3">
+<h3 id="orgea631b7"><span class="section-number-3">4.1</span> <span class="todo DOING">DOING</span> General</h3>
+<div class="outline-text-3" id="text-4-1">
+</div>
+<div id="outline-container-org6f17285" class="outline-4">
+<h4 id="org6f17285"><span class="section-number-4">4.1.1</span> recovery upgrade</h4>
+<div class="outline-text-4" id="text-4-1-1">
+<p>
+<a href="https://cloud.tencent.com/developer/article/1512939">refer1</a>
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgcb11f09" class="outline-3">
+<h3 id="orgcb11f09"><span class="section-number-3">4.2</span> <span class="todo TODO">TODO</span> Hook detect</h3>
+<div class="outline-text-3" id="text-4-2">
+<p>
+Weiju Alipy Hook
+</p>
+</div>
+</div>
+<div id="outline-container-org1894061" class="outline-3">
+<h3 id="org1894061"><span class="section-number-3">4.3</span> Crack paid app</h3>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="date">Created: 2021-06-13 秅ら 09:57</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
